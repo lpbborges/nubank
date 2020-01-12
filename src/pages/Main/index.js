@@ -13,6 +13,7 @@ import {
   Content,
   Card,
   CardHeader,
+  CarHeaderAside,
   CardContent,
   Title,
   Description,
@@ -84,7 +85,10 @@ export default function Main() {
           }]
         }}>
           <CardHeader>
-            <Icon name="attach-money" size={28} color="#666" />
+              <CarHeaderAside>
+                <Icon name="attach-money" size={28} color="#666" />
+                <Title>NuConta</Title>
+              </CarHeaderAside>
             <Icon name="visibility-off" size={28} color="#666" />
           </CardHeader>
           <CardContent>
@@ -93,7 +97,7 @@ export default function Main() {
           </CardContent>
           <CardFooter>
             <Annotation>
-              Transferência de R$ 150,00 de Luiz P. B. Borges às 16:00h
+              Depósito recebido de R$ 400,00
             </Annotation>
           </CardFooter>
         </Card>

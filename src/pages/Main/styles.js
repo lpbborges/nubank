@@ -31,6 +31,11 @@ export const CardHeader = styled.View`
   padding: 30px;
 `;
 
+export const CarHeaderAside = styled.View`
+  flex-direction: row;
+  align-items: center;
+`;
+
 export const CardContent = styled.View`
   flex: 1;
   padding: 0 30px;
@@ -38,7 +43,7 @@ export const CardContent = styled.View`
 `;
 
 export const Title = styled.Text`
-  font-size: 13px;
+  font-size: 15px;
   color: #999;
 `;
 
